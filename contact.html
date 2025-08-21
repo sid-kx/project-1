@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Project‑1 Tutoring — Vaughan, ON</title>
+  <meta name="description" content="Math & Science tutoring for grades 6–12 in Vaughan, Ontario. 1‑on‑1, small groups, exam prep." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css" />
+  <link rel="icon" href="assets/img/favicon.png" />
+
+</head>
+<body>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="logo" href="index.html">Project‑1<span>Tutoring</span></a>
+      <button class="menu-btn" aria-label="Open menu" aria-expanded="false">☰</button>
+      <nav class="site-nav" data-nav role="navigation">
+        <a href="index.html">Home</a>
+        <a href="services.html">Services</a>
+        <a href="reviews.html">Reviews</a>
+        <a href="faq.html">FAQ</a>
+        <a href="about.html">About</a>
+        <a class="btn small" href="contact.html">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+<main class="container">
+  <section class="page-header">
+    <h1>Contact</h1>
+    <p class="lead">Have questions or want to book a free 10‑minute chat? Send a message—we’ll reply within 24 hours.</p>
+  </section>
+
+  <section class="grid-2 contact">
+    <div class="card">
+      <form id="contactForm">
+        <label>
+          Your Name
+          <input name="name" required />
+        </label>
+        <label>
+          Email
+          <input name="email" type="email" required />
+        </label>
+        <label>
+          Student Grade
+          <select name="grade" required>
+            <option value="">Select</option>
+            <option>6</option><option>7</option><option>8</option>
+            <option>9</option><option>10</option><option>11</option><option>12</option>
+          </select>
+        </label>
+        <label>
+          Message
+          <textarea name="message" rows="5" required></textarea>
+        </label>
+        <button class="btn" type="submit">Send</button>
+        <p class="muted small">This demo uses your mail app to send. You can later plug in Formspree or a backend.</p>
+      </form>
+    </div>
+
+    <div>
+      <h3>Direct</h3>
+      <p><strong>Email:</strong> hello@project1tutoring.ca</p>
+      <p><strong>Phone:</strong> (555) 555‑5555</p>
+      <h3>Location</h3>
+      <p>Vaughan, Ontario</p>
+      <!-- Embedded Google Map for Vaughan, Ontario -->
+      <div class="map-embed">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d29128.962719091234!2d-79.5371513!3d43.8366276!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b2f8c8f1b2e5b%3A0x7c5f0c6b1b1f8a88!2sVaughan%2C%20ON%2C%20Canada!5e0!3m2!1sen!2sus!4v1692660000000"
+          width="600" height="360" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </section>
+</main>
+  <footer class="site-footer">
+    <div class="container footer-grid">
+      <div>
+        <div class="logo small">Project‑1<span>Tutoring</span></div>
+        <p>Math & Science tutoring for Grades 6–12 in Vaughan, Ontario.</p>
+      </div>
+      <div>
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="services.html">Services</a></li>
+          <li><a href="reviews.html">Reviews</a></li>
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <p><strong>Email:</strong> hello@project1tutoring.ca</p>
+        <p><strong>Phone:</strong> (555) 555‑5555</p>
+        <p><a target="_blank" rel="noopener" href="https://maps.apple.com/?q=Vaughan,Ontario">Open in Maps</a></p>
+      </div>
+    </div>
+    <p class="copyright">© <span id="year"></span> Project‑1 Tutoring. All rights reserved.</p>
+  </footer>
+  <script src="assets/js/main.js"></script>
+
+</body>
+</html>
